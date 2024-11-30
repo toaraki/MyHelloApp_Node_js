@@ -10,3 +10,8 @@ $ podman build -t webapp .
 ```
 $ podman run -d -p 8080:8080 --name my-sample-app webapp
 ```
+
+## テスト
+```
+$ curl http://localhost:8080
+```
